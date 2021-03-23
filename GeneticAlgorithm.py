@@ -54,7 +54,7 @@ class GenericAlgorithm:
 
     def totalFitness(self):
         """
-        fungsi untuk menghitung total nilai fitness dari populasi sekarang
+        fungsi untuk menghitung nilai fitness dari setiap populasi sekarang
         """
         result = []
         for i in self.populasi:
