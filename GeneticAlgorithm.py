@@ -90,7 +90,7 @@ class GenericAlgorithm:
         """
         fungsi untuk melakukan mutasi dari keturunan yang diberikan
         """
-        for i in range(len(keturunan[0])):
+        for i in range(self.panjangKromosom):
             if random.uniform(0, 1) < self.probMutasi:
                 # membalik nilai bit nya
                 keturunan[0][i] = 1 - keturunan[0][i]
